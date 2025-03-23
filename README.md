@@ -1,54 +1,70 @@
+ZeroTrace Terminal Utility (ZT_Term)
+Mission Briefing 🕶️
+ZeroTrace Terminal (ZT_Term) is a covert C++ terminal utility simulating an agent tool for secure payload extraction and vector-to-list data conversion.
 
-# ZeroTrace
+Interactive, loop-driven terminal interface
 
-> _Classification: Top Secret_  
-> _Clearance Level: Black Ops_  
-> _Mission Directive: Execute without a trace._
+Accepts user-defined payloads (integers) and transfers them from vector to linked list format
 
-## 🕶️ Mission Briefing
+Spy-themed output and banner to enhance immersion
 
-ZeroTrace is a covert C++ utility engineered to silently and efficiently transfer data between high-value containers. Using advanced vector-to-list conversion techniques, ZeroTrace ensures seamless operations during high-risk data manipulations.
+Modular design with reusable display and payload functions
 
-## 🎯 Objectives
+Continuous missions until agent aborts the operation
 
-- Infiltrate vector data structures.  
-- Extract and deploy data into list-based containers.  
-- Operate without detection, leaving no memory artifacts behind.  
-- Execute operations with minimal latency for mission-critical tasks.
+🔍 Features
+Stylized terminal interface with banners and immersive mission flow
 
-## 💻 Technology
+Custom payload loader: input mission-critical data into a vector
 
-- **Language:** C++  
-- **Standard:** C++11 and beyond  
-- **Modules:** `<vector>`, `<list>`, `<iostream>`
+Covert vector → list extraction using STL containers
 
-## 🛠️ Installation
+Looping functionality for repeated extractions or exit by agent command
 
-Clone the repository from the secure vault (GitHub):
+Modular code structure for easy upgrades
 
-```bash
-git clone https://github.com/your-username/ZeroTrace.git
-```
+🎯 Objectives
+Launch ZT_Term
 
-## 🗡️ Execution
+Enter payload size and values
 
-Run your covert operation:
+Visualize payload transfer from vector to linked list
 
-```bash
-g++ zerotrace.cpp -o zerotrace
-./zerotrace
-```
+Repeat extraction or abort mission
 
-## 🧰 Features
+Example Session
+markdown
+Copy
+Edit
+========================================
+=== ZeroTrace // Black Ops Terminal ===
+========================================
 
-- 🔄 **Vector to List Conversion**: Smooth data exfiltration from dynamic arrays to linked containers.
-- 🕵️ **Stealth Mode**: Clean memory handling—no leaks, no trails.
-- ⚡ **Rapid Deployment**: Fast and efficient data structure manipulation.
+Would you like to start the mission? (y/n)
+> y
 
-## ⚠️ Warning
+Mission started.
+How many mission critical values are being entered?
+> 5
+Enter value 1:
+> 42
+Enter value 2:
+> 17
+...
 
-> _Unauthorized use of ZeroTrace outside approved black-ops simulations is strictly prohibited._
+Vector:
+Payload Data Stream: 
+42 -> 17 -> ...
 
-![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
-![C++](https://img.shields.io/badge/language-C%2B%2B-00599C)
-![Top Secret](https://img.shields.io/badge/clearance-Top%20Secret-red)
+Extracting.......
+
+Extracted list from vector:
+42 -> 17 -> ...
+
+>>> PAYLOAD SUCCESSFULLY EXTRACTED. NO TRACE DETECTED <<<
+🔒 Operative Notes
+Created for learning and fun purposes.
+
+Extendable: agents can add encryption routines, file I/O, or mission logs.
+
+Programmed by Joel Serfoss - Classified Ops Division 🕶️
